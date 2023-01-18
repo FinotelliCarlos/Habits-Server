@@ -1,12 +1,10 @@
 # install
 
-
 `fastify is a framework similar the express`
 
 ```
 yarn add fastify
 ```
-
 
 ```
 yarn add typescript -D
@@ -40,7 +38,7 @@ yarn add @fastify/cors
 "scripts": {
     "dev": "tsx watch src/server.ts"
   },
-  ```
+```
 
 `in tsconfig.json set target: "es2016" to target: "es2020"`
 
@@ -55,8 +53,15 @@ yarn prisma init --datasource-provider SQLite
 ```
 yarn prisma migrate dev
 ```
-``declare a name to migration file``
 
-# run DB Prisma Studio 
+`declare a name to migration file`
+
+# run DB Prisma Studio
 
 `yarn prisma studio`
+
+# config a lib ZOD to validation
+
+```
+yarn add zod
+```
