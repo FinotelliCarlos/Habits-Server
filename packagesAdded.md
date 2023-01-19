@@ -30,6 +30,10 @@ yarn add @prisma/client
 yarn add @fastify/cors
 ```
 
+```
+yarn add dayjs
+```
+
 # config
 
 `in package.json create a script to run project`
